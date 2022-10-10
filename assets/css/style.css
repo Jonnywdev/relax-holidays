@@ -95,7 +95,7 @@ header {
 }
 
 .pri-btn {
-    padding: 15px 40px;
+    padding: 0px 30px;
     background: #f7931e;
     font-weight: 600;
     color: #000;
@@ -135,6 +135,10 @@ header .navlinks span {
     display: none;
 }
 
+.content {
+    padding-top: 8px;
+}
+
 /* end of header */
 
 
@@ -154,6 +158,36 @@ header .navlinks span {
 
 
 /* end of hero image */
+
+/* book rooms */
+
+.container-fluid {
+    background-color: #afafaf;
+    padding: 2rem 1rem;
+}
+
+.container-fluid h4 {
+    padding: 1rem 0;
+}
+
+.container-fluid .form-group, button {
+    margin: 0 5px;
+}
+
+.btn-primary {
+    background-color: #f7931e;
+    color: #000;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #ad5600;
+}
+
+
+
+
+
 
 /* why us section */
 .why-us-wrapper {
