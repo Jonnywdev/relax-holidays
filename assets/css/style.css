@@ -48,6 +48,7 @@ header {
     line-height: 10vh;
     padding: 0 20px;
     background: #e8e8e8;
+    z-index: 10;
 }
 
 .logo {
@@ -95,6 +96,11 @@ header .navlinks span {
 }
 
 /* end of header */
+
+
+/* hero image */
+
+/* end of hero image */
 
 
 
