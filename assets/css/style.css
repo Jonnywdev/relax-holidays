@@ -98,3 +98,54 @@ header .navlinks span {
 }
 
 /* end of header */
+
+
+
+/* responsiveness */
+@media only screen and (max-width:768px) {
+    header ul {
+        position: absolute;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #f7931e;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        z-index: 9;
+    }
+
+    header ul li {
+        display: block;
+        text-align: center;
+        line-height: 15vh;
+    }
+
+    header ul li a {
+        color: #fff;
+        transition: all 0.5s;
+    }
+
+    header ul li a:hover {
+        color: #000;
+    }
+
+    header i {
+        color: #fff;
+    }
+
+    header .navlinks span {
+        color: #000;
+        display: block;
+        cursor: pointer;
+        line-height: 10vh;
+        font-size: 25px;
+    }
+
+    .pri-btn {
+        padding: 15px 150px;
+        background: #000;
+        font-weight: 600;
+        color: #fff;
+    }
+}
