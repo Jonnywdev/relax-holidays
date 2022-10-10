@@ -12,7 +12,7 @@ body {
 
 /* generic styles */
 .gen-margin {
-    margin: 2rem 4rem;
+    margin: 4rem 4rem;
 }
 
 h1,h2 {
@@ -163,7 +163,7 @@ header .navlinks span {
 
 .container-fluid {
     background-color: #afafaf;
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
 }
 
 .container-fluid h4 {
@@ -183,10 +183,6 @@ header .navlinks span {
 .btn-primary:hover {
     background: #ad5600;
 }
-
-
-
-
 
 
 /* why us section */
@@ -218,6 +214,14 @@ header .navlinks span {
 .col-sm p {
     font-size: 0.9rem;
 }
+
+/* popular locations section */
+.card-deck {
+    margin: 1rem -10px;
+}
+
+
+
 
 
 
