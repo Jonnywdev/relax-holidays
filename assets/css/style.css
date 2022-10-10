@@ -11,6 +11,9 @@ body {
 }
 
 /* generic styles */
+.gen-margin {
+    margin: 2rem 4rem;
+}
 
 h1,h2 {
     font-weight: 400;
@@ -38,6 +41,10 @@ li {
     align-items: baseline;
 }
 
+.text-center {
+    text-align: center;
+}
+
 button {
     border: none;
     background: none;
@@ -56,6 +63,16 @@ button {
     height: 20vh;
 }
 
+.f-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+}
+
 /* header */
 
 header {
@@ -64,7 +81,7 @@ header {
     padding: 0 20px;
     background: #e8e8e8;
     z-index: 100;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
 }
 
@@ -82,6 +99,12 @@ header {
     background: #f7931e;
     font-weight: 600;
     color: #000;
+    transition: all 0.5s;
+}
+
+.pri-btn:hover {
+    background: #ad5600;
+    color: #fff;
 }
 
 header ul {
@@ -131,6 +154,36 @@ header .navlinks span {
 
 
 /* end of hero image */
+
+/* why us section */
+.why-us-wrapper {
+    margin-top: 2rem;
+}
+
+.ico-circle {
+    background: #f7931e;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: 10px auto;
+}
+
+.ico-circle i {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    font-size: 25px;
+    color: #000;
+}
+
+.col-sm h2 {
+    font-size: 1.5rem;
+}
+
+.col-sm p {
+    font-size: 0.9rem;
+}
 
 
 
