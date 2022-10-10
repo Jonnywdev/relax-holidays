@@ -85,9 +85,6 @@ header ul li a:hover {
     color: #f7931e;
 }
 
-header i {
-    margin: 0 20px;
-}
 
 header button {
     padding: 13px 40px;
@@ -128,10 +125,6 @@ header .navlinks span {
 
     header ul li a:hover {
         color: #000;
-    }
-
-    header i {
-        color: #fff;
     }
 
     header .navlinks span {
