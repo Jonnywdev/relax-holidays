@@ -39,7 +39,6 @@ li {
 .flex_space {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 .text-center {
@@ -139,6 +138,7 @@ header .navlinks span {
 
 .content {
     padding-top: 8px;
+    align-items: baseline;
 }
 
 /* end of header */
@@ -302,11 +302,11 @@ footer {
     padding: 5px 0;
 }
 
-.sign-in {
+.g-header {
     margin: 4rem 0 2rem 0;
 }
 
-.sign-in h2 {
+.g-header h2 {
     text-transform: uppercase;
 }
 
@@ -347,6 +347,20 @@ footer {
 
 #privacy-pol:hover {
     text-decoration: underline;
+}
+
+.contact-form {
+    width: 50%;
+    background-color: #777777;
+    padding: 12px;
+    height: 100vh;
+    float: left;
+}
+
+.contact-details {
+    width: 40%;
+    float: right;
+    text-align: right;
 }
 
 /* responsiveness */
