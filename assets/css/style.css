@@ -353,7 +353,6 @@ footer {
     width: 50%;
     background-color: #777777;
     padding: 12px;
-    height: 100vh;
     float: left;
 }
 
@@ -361,6 +360,21 @@ footer {
     width: 40%;
     float: right;
     text-align: right;
+}
+
+.contact-details ul li a {
+    color: #000;
+    transition: all 0.5s;
+}
+
+.contact-details ul li a:hover {
+    color: #f7931e;
+}
+
+
+.send-btn {
+    width: 100%;
+    margin: 0;
 }
 
 /* responsiveness */

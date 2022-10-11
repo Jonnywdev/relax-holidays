@@ -37,7 +37,25 @@
         </div>
         <div class="flex_space f-row">
             <div class="contact-form">
-
+                <form class="generic-form" id="contactForm">
+                    <div class="form-group">
+                      <label for="contactName">Full Name</label>
+                      <input type="text" class="form-control" id="fullName" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email Address</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="Email Address" required>
+                      </div>
+                    <div class="form-group">
+                      <label for="contactNumber">Phone Number</label>
+                      <input type="tel" class="form-control" id="contactNumber" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Your Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="3" placeholder="Type Here..." required></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary send-btn">Send Message</button>
+                </form>
             </div>
             <div class="contact-details">
                 <h3>Useful Links</h3>
