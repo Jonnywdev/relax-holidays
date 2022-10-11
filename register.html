@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/ab972f586c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" media="screen" type="text/css">
-    <title>Sign in</title>
+    <title>Register</title>
 </head>
 <body>
     <!-- header -->
@@ -33,23 +33,37 @@
 
     <section class="gen-margin">
         <div class="sign-in">
-            <h2>Sign in</h2>
+            <h2>register</h2>
         </div>
         <form class="generic-form" id="sign-in-form">
             <div class="form-group">
-              <label for="Email">Email address</label>
-              <input type="email" class="form-control" id="Email" placeholder="Email Address">
+                <label for="fName">First Name</label>
+                <input type="text" class="form-control" id="fName" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <label for="lName">Last Name</label>
+                <input type="email" class="form-control" id="Lname" placeholder="Last Name">
+              </div>
+            <div class="form-group">
+              <label for="registerEmail">Email Address</label>
+              <input type="email" class="form-control" id="registerEmail" placeholder="Email Address">
             </div>
             <div class="form-group">
-              <label for="Password">Password</label>
-              <input type="password" class="form-control" id="Password" placeholder="Password">
+              <label for="registerPassword">Password</label>
+              <input type="password" class="form-control" id="registerPassword" placeholder="Your Password">
             </div>
-            <button type="submit" class="btn btn-primary">Sign In</button>
-          </form>
-          <div class="sign-in-links-wrapped">
-            <a href="register.html" class="sign-in-links">Not got an account? <b>Register now!</b></a>
-            <a href="#" class="sign-in-links">Forgotten Password?</a>
-          </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Confrim Password">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="newsletter">
+                <label class="form-check-label" for="newsletter">I want to receive the best deals and holiday inspiration.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <small id="pPolicy" class="form-text">By pressing Sign Up you agree to our <a href="#" id="privacy-pol">Privacy Policy</a></small>
+        </form>
+        <a href="sign-in.html" class="sign-in-links">Already got an account? <b>Click here</b></a>
 
     </section>
 

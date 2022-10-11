@@ -306,6 +306,49 @@ footer {
     margin: 4rem 0 2rem 0;
 }
 
+.sign-in h2 {
+    text-transform: uppercase;
+}
+
+.generic-form {
+    margin-bottom: 1rem;
+}
+
+.sign-in-links-wrapped {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sign-in-links {
+    color: #afafaf;
+    transition: all 0.5s;
+    padding-top: 15px;
+}
+
+.sign-in-links:hover {
+    color: #000;
+}
+
+.sign-in-links b {
+    text-decoration: underline;
+}
+
+.form-check {
+    padding-bottom: 25px;
+}
+
+#privacy-pol {
+    color: #f7931e;
+    transition: all 0.5s;
+}
+
+#privacy-pol:hover {
+    text-decoration: underline;
+}
+
 /* responsiveness */
 @media only screen and (max-width:768px) {
     header ul {
